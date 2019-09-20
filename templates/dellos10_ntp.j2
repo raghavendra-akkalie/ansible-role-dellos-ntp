@@ -1,9 +1,7 @@
 #jinja2: trim_blocks: True,lstrip_blocks: True
 {#############################################
-
 Purpose:
 Configure NTP commands for dellos10 Devices
-
 dellos_ntp:
       source: ethernet 1/1/2
       master: 5
@@ -25,8 +23,6 @@ dellos_ntp:
         ethernet 1/1/2:
           disable: true
           broadcast: true
-
-
 ###############################################}
 {% if dellos_ntp is defined and dellos_ntp %}
     {% if dellos_ntp.source is defined %}

@@ -1,6 +1,5 @@
 ---
 # vars file for Dell-Networking.dellos-ntp, below gives a sample configuration
-
 # Sample variables for dellos10 device
 dellos_ntp:
     source: ethernet 1/1/2
